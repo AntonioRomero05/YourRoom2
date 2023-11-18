@@ -1,0 +1,48 @@
+
+.conNosotros {
+  display: block;
+  margin: auto;
+  padding: 10px;
+      
+}
+
+.vision {
+  position: relative;
+  height: auto;
+}
+
+.vision::after {
+  content: "";
+  background: white;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  animation: maquinaescribir 2s alternate steps(100);
+}
+
+@keyframes maquinaescribir {
+  from {
+    width: 100%;
+  }
+  to {
+    height: 0%;
+    width: 0%;
+  }
+}
+
+.mision {
+  position: relative;
+  height: auto;
+}
+
+.mision::after {
+  content: "";
+  background: white;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  animation: maquinaescribir 2s alternate steps(100);
+}
+
+
+  
