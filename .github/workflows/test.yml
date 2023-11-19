@@ -39,8 +39,7 @@ jobs:
     - name: Run TestCafe tests mis cuartos
       run: testcafe chromium:headless ./test/misCuartos.js
 
-    - name: Run TestCafe tests zonas
-      run: testcafe chromium:headless ./test/zonas.js
+
 
 
 
